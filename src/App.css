@@ -1,0 +1,35 @@
+
+.page{
+    width: 100%;
+    min-height: 100vh;
+    background: url('./assets/4-ways-improve-lighting-schools-delos.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-family: "Archivo Black", sans-serif;
+}
+.register-container{
+    width: 800px;
+    height: auto;
+   
+}
+.inner-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media(max-width:900px){
+    .page{
+        padding: 30px;
+    }
+    .inner-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading{
+        font-size: 18px;
+    }
+}
