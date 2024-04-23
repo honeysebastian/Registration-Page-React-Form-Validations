@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
 }
-.heading{
+.heading-main{
     font-family: "Archivo Black", sans-serif;
 }
 .register-container{
@@ -20,6 +20,27 @@
     display: flex;
     justify-content: space-evenly;
 }
+.details{
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+  }
+  .modal-heading{
+    width: 209px;
+    height: 324px;
+  }
+  .fullname{
+    padding: 6px;
+  }
+  .fillers{
+    width: 330px;
+    padding-top: 2px;
+    
+  }
+  .content{
+    padding: 8.5px;
+  }
 
 @media(max-width:900px){
     .page{
