@@ -203,8 +203,8 @@ function App() {
             </div>
             <div className="mb-3">
               <Stack spacing={2} direction="column">
-                <Button onClick={handleShow} variant="contained" className='shadow bg-success'>SUBMIT</Button>
-                <Button onClick={resetForm} variant="contained" className='shadow'>RESET</Button>
+                <Button disabled={isFullnameInvalid||isAddressInvalid||isEmailInvalid||isMobileNumberInvalid||isFormIncomplete} onClick={handleShow} variant="contained" className='shadow bg-success text-light'>SUBMIT</Button>
+                <Button onClick={resetForm} variant="contained primary" className='shadow bg-primary text-light'>CANCEL</Button>
               </Stack>
             </div>
             <Modal
